@@ -1,15 +1,15 @@
-# 🎯 Memecoin Sniper Bot
+# Memecoin Sniper Bot
 
 An automated Telegram bot for monitoring, scanning, and sniping memecoins on Solana (Pump.fun / Raydium) using Helius RPC & DexScreener APIs.
 
-## 🚀 Features
+## Features
 
-- **🔎 Auto-Scanner**: Real-time WebSocket connection to Pump.fun for new token launches.
-- **🎯 Target-Sniper**: Custom target tracking alert system based on Market Cap threshold.
-- **🛡️ Advanced Filters**: Dev wallet activity checks, volume & transaction liquidity analysis, mayhem/honeypot filtering, and social link requirements.
-- **⚙️ Interactive Telegram UI**: Easily toggle settings, filters, and thresholds directly from Telegram keyboards.
+- **Auto-Scanner**: Real-time WebSocket connection to Pump.fun for new token launches.
+- **Target-Sniper**: Custom target tracking alert system based on Market Cap threshold.
+- **Advanced Filters**: Dev wallet activity checks, volume & transaction liquidity analysis, mayhem/honeypot filtering, and social link requirements.
+- **Interactive Telegram UI**: Easily toggle settings, filters, and thresholds directly from Telegram keyboards.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 memecoin-sniper/
@@ -32,7 +32,7 @@ memecoin-sniper/
 └── README.md
 ```
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -63,5 +63,5 @@ RPC_URL=https://mainnet.helius-rpc.com/?api-key=your_api_key
 python main.py
 ```
 
-## 📄 License
+## License
 MIT License
